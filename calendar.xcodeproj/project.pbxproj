@@ -22,7 +22,7 @@
 		1E647A091DEFD4AA00ED39E9 /* FQPathGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A071DEFD4AA00ED39E9 /* FQPathGetter.m */; };
 		1E647A0C1DEFDE6300ED39E9 /* NSString+PDRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A0B1DEFDE6300ED39E9 /* NSString+PDRegex.m */; };
 		1E647A0F1DEFDF4000ED39E9 /* CLLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A0E1DEFDF4000ED39E9 /* CLLoginController.m */; };
-		1E647A121DEFDF9200ED39E9 /* g.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A111DEFDF9200ED39E9 /* g.m */; };
+		1E647A121DEFDF9200ED39E9 /* CLRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A111DEFDF9200ED39E9 /* CLRegisterController.m */; };
 		1E647A161DEFEC0600ED39E9 /* CLLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A151DEFEC0600ED39E9 /* CLLoginView.m */; };
 		1E647A191DEFFFF100ED39E9 /* CLLoginView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A181DEFFFF100ED39E9 /* CLLoginView1.m */; };
 		1E647A1C1DF00D2B00ED39E9 /* CLProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A1B1DF00D2B00ED39E9 /* CLProgressHUD.m */; };
@@ -63,7 +63,7 @@
 		1E647A0D1DEFDF4000ED39E9 /* CLLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLoginController.h; sourceTree = "<group>"; };
 		1E647A0E1DEFDF4000ED39E9 /* CLLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLoginController.m; sourceTree = "<group>"; };
 		1E647A101DEFDF9200ED39E9 /* CLRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRegisterController.h; sourceTree = "<group>"; };
-		1E647A111DEFDF9200ED39E9 /* g.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = g.m; sourceTree = "<group>"; };
+		1E647A111DEFDF9200ED39E9 /* CLRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLRegisterController.m; sourceTree = "<group>"; };
 		1E647A141DEFEC0600ED39E9 /* CLLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLoginView.h; sourceTree = "<group>"; };
 		1E647A151DEFEC0600ED39E9 /* CLLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLoginView.m; sourceTree = "<group>"; };
 		1E647A171DEFFFF100ED39E9 /* CLLoginView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLoginView1.h; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 				1E647A0D1DEFDF4000ED39E9 /* CLLoginController.h */,
 				1E647A0E1DEFDF4000ED39E9 /* CLLoginController.m */,
 				1E647A101DEFDF9200ED39E9 /* CLRegisterController.h */,
-				1E647A111DEFDF9200ED39E9 /* g.m */,
+				1E647A111DEFDF9200ED39E9 /* CLRegisterController.m */,
 				1E4B7F1D1DF134FB0010088E /* CLSplashController.h */,
 				1E4B7F1E1DF134FB0010088E /* CLSplashController.m */,
 			);
@@ -371,7 +371,7 @@
 				1E6479F81DEFCFF500ED39E9 /* UIView+Instance.m in Sources */,
 				1E647A1F1DF01CF000ED39E9 /* CLRegisterView.m in Sources */,
 				1E647A0C1DEFDE6300ED39E9 /* NSString+PDRegex.m in Sources */,
-				1E647A121DEFDF9200ED39E9 /* g.m in Sources */,
+				1E647A121DEFDF9200ED39E9 /* CLRegisterController.m in Sources */,
 				1E647A1C1DF00D2B00ED39E9 /* CLProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

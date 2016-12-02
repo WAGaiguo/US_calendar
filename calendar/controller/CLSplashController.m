@@ -72,7 +72,7 @@
 -(void)next{
     ++currentPage;
     if (currentPage == 3) {
-        [self.navigationController popViewControllerAnimated:YES];
+        [self.navigationController popViewControllerAnimated:YES];return;
     }
     NSIndexPath *path = [NSIndexPath indexPathForItem:currentPage inSection:0];
     [_collectionView scrollToItemAtIndexPath:path atScrollPosition:UICollectionViewScrollPositionNone animated:YES];
