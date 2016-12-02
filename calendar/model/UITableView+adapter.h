@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CLAdapter.h"
 
 @interface UITableView (adapter)
-
+- (void)setAdapter:(CLAdapter *)adapter;
 @end

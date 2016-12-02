@@ -11,3 +11,7 @@
 @interface CLSplashController : UIViewController
 
 @end
+
+@interface CLSplashCell : UICollectionViewCell
+
+@end

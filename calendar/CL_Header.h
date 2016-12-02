@@ -8,6 +8,13 @@
 
 #ifndef CL_Header_h
 #define CL_Header_h
+#import <UIKit/UIKit.h>
+#import <SDAutoLayout/UIView+SDAutoLayout.h>
+#import "NSObject+Instance.h"
+#import "UIView+Instance.h"
+#import "UIColor+Instance.h"
+#import "UITableView+adapter.h"
+#import "FQApplication.h"
 
 
 #endif /* CL_Header_h */

@@ -93,6 +93,9 @@ CWL_SYNTHESIZE_SINGLETON_FOR_CLASS_WITH_ACCESSOR(FQApplication,currentApplicatio
 - (void)openUrl:(NSString *)urlStr
 {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlStr]];
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlStr] options:nil completionHandler:^(BOOL success) {
+//        
+//    }];
 }
 - (BOOL)isFirstInstall{
     NSString *installed = [[NSUserDefaults standardUserDefaults] objectForKey:@"installed"];

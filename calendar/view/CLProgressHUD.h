@@ -10,4 +10,7 @@
 
 @interface CLProgressHUD : MBProgressHUD
 
++(void)show:(NSString *)text view:(UIView *)view;
++ (void)show:(NSString *)text;
+
 @end

@@ -10,4 +10,11 @@
 
 @interface CLLoginView1 : UIView
 
+@property (nonatomic,strong)UIButton *signIn;
+//@property (nonatomic,strong)UIButton *signUp;
+@property (nonatomic,strong)UILabel *label;
+
+@property (nonatomic,copy)void(^signInBlock)();
+@property (nonatomic,copy)void(^signUpBlock)();
+
 @end

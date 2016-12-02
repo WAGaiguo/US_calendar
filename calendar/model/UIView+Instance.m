@@ -9,5 +9,7 @@
 #import "UIView+Instance.h"
 
 @implementation UIView (Instance)
-
++(instancetype)instance:(CGRect)frame{
+    return [[[self class]alloc]initWithFrame:frame];
+}
 @end

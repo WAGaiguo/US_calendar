@@ -13,4 +13,7 @@
 @property (nonatomic,strong)UITextField *userField;
 @property (nonatomic,strong)UITextField *passField;
 
+@property (nonatomic,copy)void (^beginBlock)(UITextField *field);
+@property (nonatomic,copy)void (^returnBlock)(UITextField *field);
+
 @end

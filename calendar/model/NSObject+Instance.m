@@ -9,5 +9,7 @@
 #import "NSObject+Instance.h"
 
 @implementation NSObject (Instance)
-
++(instancetype)instance{
+    return [[[self class]alloc]init];
+}
 @end

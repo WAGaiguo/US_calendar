@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject (Instance)
-
++ (instancetype)instance;
 @end
+
+

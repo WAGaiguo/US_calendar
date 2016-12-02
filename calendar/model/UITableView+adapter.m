@@ -8,6 +8,12 @@
 
 #import "UITableView+adapter.h"
 
-@implementation UITableView (adapter)
 
+@implementation UITableView (adapter)
+-(void)setAdapter:(CLAdapter *)adapter{
+    self.delegate = adapter;
+    self.dataSource = adapter;
+    adapter.view = self;
+    
+}
 @end

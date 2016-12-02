@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (Instance)
-
++ (instancetype)instance:(CGRect)frame;
 @end

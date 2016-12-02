@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CLAdapter : NSObject
+
+@interface CLAdapter : NSObject<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic,readonly)NSMutableArray *dataSource;
+@property(nonatomic,copy)void (^didSelectedRow)(UITableView*tableView, NSIndexPath*indexPath);
+@property (nonatomic,weak)UITableView *view;
+@property (nonatomic,copy)void (^didScroll)(UITableView *tableV);
+- (void)goTop:(BOOL)animated;
 
 @end

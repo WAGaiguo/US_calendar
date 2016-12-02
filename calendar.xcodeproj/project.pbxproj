@@ -7,27 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E4B7F1F1DF134FB0010088E /* CLSplashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4B7F1E1DF134FB0010088E /* CLSplashController.m */; };
 		1E6479881DEFBF3500ED39E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6479871DEFBF3500ED39E9 /* main.m */; };
 		1E64798B1DEFBF3500ED39E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64798A1DEFBF3500ED39E9 /* AppDelegate.m */; };
-		1E64798E1DEFBF3500ED39E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E64798D1DEFBF3500ED39E9 /* ViewController.m */; };
-		1E6479911DEFBF3500ED39E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E64798F1DEFBF3500ED39E9 /* Main.storyboard */; };
 		1E6479941DEFBF3500ED39E9 /* calendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E6479921DEFBF3500ED39E9 /* calendar.xcdatamodeld */; };
 		1E6479961DEFBF3500ED39E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6479951DEFBF3500ED39E9 /* Assets.xcassets */; };
 		1E6479991DEFBF3500ED39E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6479971DEFBF3500ED39E9 /* LaunchScreen.storyboard */; };
+		1E6479F51DEFCEE600ED39E9 /* NSObject+Instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6479F41DEFCEE600ED39E9 /* NSObject+Instance.m */; };
+		1E6479F81DEFCFF500ED39E9 /* UIView+Instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6479F71DEFCFF500ED39E9 /* UIView+Instance.m */; };
+		1E6479FB1DEFD08B00ED39E9 /* UIColor+Instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6479FA1DEFD08B00ED39E9 /* UIColor+Instance.m */; };
+		1E6479FE1DEFD18500ED39E9 /* CLAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6479FD1DEFD18500ED39E9 /* CLAdapter.m */; };
+		1E647A011DEFD2EB00ED39E9 /* UITableView+adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A001DEFD2EB00ED39E9 /* UITableView+adapter.m */; };
+		1E647A081DEFD4AA00ED39E9 /* FQApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A051DEFD4AA00ED39E9 /* FQApplication.m */; };
+		1E647A091DEFD4AA00ED39E9 /* FQPathGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A071DEFD4AA00ED39E9 /* FQPathGetter.m */; };
+		1E647A0C1DEFDE6300ED39E9 /* NSString+PDRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A0B1DEFDE6300ED39E9 /* NSString+PDRegex.m */; };
+		1E647A0F1DEFDF4000ED39E9 /* CLLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A0E1DEFDF4000ED39E9 /* CLLoginController.m */; };
+		1E647A121DEFDF9200ED39E9 /* g.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A111DEFDF9200ED39E9 /* g.m */; };
+		1E647A161DEFEC0600ED39E9 /* CLLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A151DEFEC0600ED39E9 /* CLLoginView.m */; };
+		1E647A191DEFFFF100ED39E9 /* CLLoginView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A181DEFFFF100ED39E9 /* CLLoginView1.m */; };
+		1E647A1C1DF00D2B00ED39E9 /* CLProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A1B1DF00D2B00ED39E9 /* CLProgressHUD.m */; };
+		1E647A1F1DF01CF000ED39E9 /* CLRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E647A1E1DF01CF000ED39E9 /* CLRegisterView.m */; };
+		ED43F9B840A89DEFF530B1B3 /* libPods-calendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D846988F970518F04AC20E34 /* libPods-calendar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B6339424086D3C2ABC05244 /* Pods-calendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-calendar/Pods-calendar.release.xcconfig"; sourceTree = "<group>"; };
+		1E4B7F1D1DF134FB0010088E /* CLSplashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSplashController.h; sourceTree = "<group>"; };
+		1E4B7F1E1DF134FB0010088E /* CLSplashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSplashController.m; sourceTree = "<group>"; };
 		1E6479831DEFBF3500ED39E9 /* calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6479871DEFBF3500ED39E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E6479891DEFBF3500ED39E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E64798A1DEFBF3500ED39E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1E64798C1DEFBF3500ED39E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1E64798D1DEFBF3500ED39E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1E6479901DEFBF3500ED39E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E6479931DEFBF3500ED39E9 /* calendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = calendar.xcdatamodel; sourceTree = "<group>"; };
 		1E6479951DEFBF3500ED39E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E6479981DEFBF3500ED39E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E64799A1DEFBF3500ED39E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6479B91DEFC98800ED39E9 /* CL_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CL_Header.h; sourceTree = "<group>"; };
+		1E6479F31DEFCEE600ED39E9 /* NSObject+Instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Instance.h"; sourceTree = "<group>"; };
+		1E6479F41DEFCEE600ED39E9 /* NSObject+Instance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Instance.m"; sourceTree = "<group>"; };
+		1E6479F61DEFCFF500ED39E9 /* UIView+Instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Instance.h"; sourceTree = "<group>"; };
+		1E6479F71DEFCFF500ED39E9 /* UIView+Instance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Instance.m"; sourceTree = "<group>"; };
+		1E6479F91DEFD08B00ED39E9 /* UIColor+Instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Instance.h"; sourceTree = "<group>"; };
+		1E6479FA1DEFD08B00ED39E9 /* UIColor+Instance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Instance.m"; sourceTree = "<group>"; };
+		1E6479FC1DEFD18500ED39E9 /* CLAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAdapter.h; sourceTree = "<group>"; };
+		1E6479FD1DEFD18500ED39E9 /* CLAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAdapter.m; sourceTree = "<group>"; };
+		1E6479FF1DEFD2EB00ED39E9 /* UITableView+adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+adapter.h"; sourceTree = "<group>"; };
+		1E647A001DEFD2EB00ED39E9 /* UITableView+adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+adapter.m"; sourceTree = "<group>"; };
+		1E647A031DEFD4AA00ED39E9 /* CWLSynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLSynthesizeSingleton.h; sourceTree = "<group>"; };
+		1E647A041DEFD4AA00ED39E9 /* FQApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQApplication.h; sourceTree = "<group>"; };
+		1E647A051DEFD4AA00ED39E9 /* FQApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQApplication.m; sourceTree = "<group>"; };
+		1E647A061DEFD4AA00ED39E9 /* FQPathGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQPathGetter.h; sourceTree = "<group>"; };
+		1E647A071DEFD4AA00ED39E9 /* FQPathGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQPathGetter.m; sourceTree = "<group>"; };
+		1E647A0A1DEFDE6300ED39E9 /* NSString+PDRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PDRegex.h"; sourceTree = "<group>"; };
+		1E647A0B1DEFDE6300ED39E9 /* NSString+PDRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PDRegex.m"; sourceTree = "<group>"; };
+		1E647A0D1DEFDF4000ED39E9 /* CLLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLoginController.h; sourceTree = "<group>"; };
+		1E647A0E1DEFDF4000ED39E9 /* CLLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLoginController.m; sourceTree = "<group>"; };
+		1E647A101DEFDF9200ED39E9 /* CLRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRegisterController.h; sourceTree = "<group>"; };
+		1E647A111DEFDF9200ED39E9 /* g.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = g.m; sourceTree = "<group>"; };
+		1E647A141DEFEC0600ED39E9 /* CLLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLoginView.h; sourceTree = "<group>"; };
+		1E647A151DEFEC0600ED39E9 /* CLLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLoginView.m; sourceTree = "<group>"; };
+		1E647A171DEFFFF100ED39E9 /* CLLoginView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLoginView1.h; sourceTree = "<group>"; };
+		1E647A181DEFFFF100ED39E9 /* CLLoginView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLoginView1.m; sourceTree = "<group>"; };
+		1E647A1A1DF00D2B00ED39E9 /* CLProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLProgressHUD.h; sourceTree = "<group>"; };
+		1E647A1B1DF00D2B00ED39E9 /* CLProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLProgressHUD.m; sourceTree = "<group>"; };
+		1E647A1D1DF01CF000ED39E9 /* CLRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRegisterView.h; sourceTree = "<group>"; };
+		1E647A1E1DF01CF000ED39E9 /* CLRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLRegisterView.m; sourceTree = "<group>"; };
+		C7F84E6C4570C886DD5D0FC7 /* Pods-calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-calendar/Pods-calendar.debug.xcconfig"; sourceTree = "<group>"; };
+		D846988F970518F04AC20E34 /* libPods-calendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-calendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED43F9B840A89DEFF530B1B3 /* libPods-calendar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +93,8 @@
 			children = (
 				1E6479851DEFBF3500ED39E9 /* calendar */,
 				1E6479841DEFBF3500ED39E9 /* Products */,
+				BF426D9CB6811EAE08D4FD85 /* Pods */,
+				684B81240FBCDE4FB9216DDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +109,19 @@
 		1E6479851DEFBF3500ED39E9 /* calendar */ = {
 			isa = PBXGroup;
 			children = (
+				1E647A021DEFD4AA00ED39E9 /* common */,
+				1E6479BA1DEFCAA800ED39E9 /* model */,
+				1E6479A41DEFC12000ED39E9 /* 3rd */,
+				1E6479A01DEFC0EE00ED39E9 /* cell */,
+				1E6479A11DEFC0EE00ED39E9 /* controller */,
+				1E6479A31DEFC0EE00ED39E9 /* view */,
 				1E6479891DEFBF3500ED39E9 /* AppDelegate.h */,
 				1E64798A1DEFBF3500ED39E9 /* AppDelegate.m */,
-				1E64798C1DEFBF3500ED39E9 /* ViewController.h */,
-				1E64798D1DEFBF3500ED39E9 /* ViewController.m */,
-				1E64798F1DEFBF3500ED39E9 /* Main.storyboard */,
 				1E6479951DEFBF3500ED39E9 /* Assets.xcassets */,
 				1E6479971DEFBF3500ED39E9 /* LaunchScreen.storyboard */,
 				1E64799A1DEFBF3500ED39E9 /* Info.plist */,
 				1E6479921DEFBF3500ED39E9 /* calendar.xcdatamodeld */,
+				1E6479B91DEFC98800ED39E9 /* CL_Header.h */,
 				1E6479861DEFBF3500ED39E9 /* Supporting Files */,
 			);
 			path = calendar;
@@ -82,6 +135,104 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1E6479A01DEFC0EE00ED39E9 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		1E6479A11DEFC0EE00ED39E9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E647A0D1DEFDF4000ED39E9 /* CLLoginController.h */,
+				1E647A0E1DEFDF4000ED39E9 /* CLLoginController.m */,
+				1E647A101DEFDF9200ED39E9 /* CLRegisterController.h */,
+				1E647A111DEFDF9200ED39E9 /* g.m */,
+				1E4B7F1D1DF134FB0010088E /* CLSplashController.h */,
+				1E4B7F1E1DF134FB0010088E /* CLSplashController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1E6479A31DEFC0EE00ED39E9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1E647A131DEFEBCF00ED39E9 /* CLLogin */,
+				1E647A1A1DF00D2B00ED39E9 /* CLProgressHUD.h */,
+				1E647A1B1DF00D2B00ED39E9 /* CLProgressHUD.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1E6479A41DEFC12000ED39E9 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		1E6479BA1DEFCAA800ED39E9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1E647A0A1DEFDE6300ED39E9 /* NSString+PDRegex.h */,
+				1E647A0B1DEFDE6300ED39E9 /* NSString+PDRegex.m */,
+				1E6479F31DEFCEE600ED39E9 /* NSObject+Instance.h */,
+				1E6479F41DEFCEE600ED39E9 /* NSObject+Instance.m */,
+				1E6479F61DEFCFF500ED39E9 /* UIView+Instance.h */,
+				1E6479F71DEFCFF500ED39E9 /* UIView+Instance.m */,
+				1E6479F91DEFD08B00ED39E9 /* UIColor+Instance.h */,
+				1E6479FA1DEFD08B00ED39E9 /* UIColor+Instance.m */,
+				1E6479FC1DEFD18500ED39E9 /* CLAdapter.h */,
+				1E6479FD1DEFD18500ED39E9 /* CLAdapter.m */,
+				1E6479FF1DEFD2EB00ED39E9 /* UITableView+adapter.h */,
+				1E647A001DEFD2EB00ED39E9 /* UITableView+adapter.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1E647A021DEFD4AA00ED39E9 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				1E647A031DEFD4AA00ED39E9 /* CWLSynthesizeSingleton.h */,
+				1E647A041DEFD4AA00ED39E9 /* FQApplication.h */,
+				1E647A051DEFD4AA00ED39E9 /* FQApplication.m */,
+				1E647A061DEFD4AA00ED39E9 /* FQPathGetter.h */,
+				1E647A071DEFD4AA00ED39E9 /* FQPathGetter.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		1E647A131DEFEBCF00ED39E9 /* CLLogin */ = {
+			isa = PBXGroup;
+			children = (
+				1E647A141DEFEC0600ED39E9 /* CLLoginView.h */,
+				1E647A151DEFEC0600ED39E9 /* CLLoginView.m */,
+				1E647A171DEFFFF100ED39E9 /* CLLoginView1.h */,
+				1E647A181DEFFFF100ED39E9 /* CLLoginView1.m */,
+				1E647A1D1DF01CF000ED39E9 /* CLRegisterView.h */,
+				1E647A1E1DF01CF000ED39E9 /* CLRegisterView.m */,
+			);
+			path = CLLogin;
+			sourceTree = "<group>";
+		};
+		684B81240FBCDE4FB9216DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D846988F970518F04AC20E34 /* libPods-calendar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF426D9CB6811EAE08D4FD85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7F84E6C4570C886DD5D0FC7 /* Pods-calendar.debug.xcconfig */,
+				0B6339424086D3C2ABC05244 /* Pods-calendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E64799D1DEFBF3500ED39E9 /* Build configuration list for PBXNativeTarget "calendar" */;
 			buildPhases = (
+				083C322C8143CAFF44BA8F76 /* [CP] Check Pods Manifest.lock */,
 				1E64797F1DEFBF3500ED39E9 /* Sources */,
 				1E6479801DEFBF3500ED39E9 /* Frameworks */,
 				1E6479811DEFBF3500ED39E9 /* Resources */,
+				D57A93F2034555B8AA11B4BC /* [CP] Embed Pods Frameworks */,
+				CAE6ED93F221ADADEB1993C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,35 +297,88 @@
 			files = (
 				1E6479991DEFBF3500ED39E9 /* LaunchScreen.storyboard in Resources */,
 				1E6479961DEFBF3500ED39E9 /* Assets.xcassets in Resources */,
-				1E6479911DEFBF3500ED39E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		083C322C8143CAFF44BA8F76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE6ED93F221ADADEB1993C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-calendar/Pods-calendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57A93F2034555B8AA11B4BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-calendar/Pods-calendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E64797F1DEFBF3500ED39E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E64798E1DEFBF3500ED39E9 /* ViewController.m in Sources */,
+				1E6479FB1DEFD08B00ED39E9 /* UIColor+Instance.m in Sources */,
+				1E647A011DEFD2EB00ED39E9 /* UITableView+adapter.m in Sources */,
+				1E647A191DEFFFF100ED39E9 /* CLLoginView1.m in Sources */,
+				1E647A161DEFEC0600ED39E9 /* CLLoginView.m in Sources */,
+				1E6479F51DEFCEE600ED39E9 /* NSObject+Instance.m in Sources */,
+				1E4B7F1F1DF134FB0010088E /* CLSplashController.m in Sources */,
+				1E647A091DEFD4AA00ED39E9 /* FQPathGetter.m in Sources */,
 				1E64798B1DEFBF3500ED39E9 /* AppDelegate.m in Sources */,
 				1E6479881DEFBF3500ED39E9 /* main.m in Sources */,
+				1E647A0F1DEFDF4000ED39E9 /* CLLoginController.m in Sources */,
 				1E6479941DEFBF3500ED39E9 /* calendar.xcdatamodeld in Sources */,
+				1E647A081DEFD4AA00ED39E9 /* FQApplication.m in Sources */,
+				1E6479FE1DEFD18500ED39E9 /* CLAdapter.m in Sources */,
+				1E6479F81DEFCFF500ED39E9 /* UIView+Instance.m in Sources */,
+				1E647A1F1DF01CF000ED39E9 /* CLRegisterView.m in Sources */,
+				1E647A0C1DEFDE6300ED39E9 /* NSString+PDRegex.m in Sources */,
+				1E647A121DEFDF9200ED39E9 /* g.m in Sources */,
+				1E647A1C1DF00D2B00ED39E9 /* CLProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1E64798F1DEFBF3500ED39E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E6479901DEFBF3500ED39E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E6479971DEFBF3500ED39E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,10 +482,13 @@
 		};
 		1E64799E1DEFBF3500ED39E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F84E6C4570C886DD5D0FC7 /* Pods-calendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5J3D27HWQC;
+				GCC_PREFIX_HEADER = calendar/CL_Header.h;
 				INFOPLIST_FILE = calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangaiguo.calendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,10 +497,13 @@
 		};
 		1E64799F1DEFBF3500ED39E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6339424086D3C2ABC05244 /* Pods-calendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5J3D27HWQC;
+				GCC_PREFIX_HEADER = calendar/CL_Header.h;
 				INFOPLIST_FILE = calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangaiguo.calendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,6 +529,7 @@
 				1E64799F1DEFBF3500ED39E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
