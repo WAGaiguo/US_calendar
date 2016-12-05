@@ -91,7 +91,7 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 //    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    [self close];
+    [self close:indexPath.row];
 }
 
 -(void)setClosed:(BOOL)closed{
@@ -118,6 +118,12 @@
 
 -(void)close{
     [self setClosed:YES];
+}
+- (void)close:(NSInteger )row{
+    [self setClosed:YES];
+    if (self.selectRowBlock) {
+        self.selectRowBlock(row);
+    }
 }
 
 @end

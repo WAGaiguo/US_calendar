@@ -23,7 +23,7 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = UIWhiteColor;
     _login = [CLLoginController instance];
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[CLHomeController instance]];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:_login];
     nav.navigationBarHidden = YES;
     [self.window setRootViewController:nav];
     [self.window makeKeyAndVisible];

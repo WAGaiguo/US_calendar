@@ -58,7 +58,12 @@ static const NSInteger rightMargin = 8;
     
 }
 
-
+-(void)tapLeft:(UIButton *)btn{
+    
+}
+-(void)tapRight:(UIButton *)btn{
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

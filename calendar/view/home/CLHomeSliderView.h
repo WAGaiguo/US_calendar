@@ -12,6 +12,7 @@
 
 @property (nonatomic,strong) NSArray *dataSource;
 @property (nonatomic,assign) BOOL closed;
+@property (nonatomic,copy)void (^selectRowBlock)(NSInteger);
 
 @end
 
