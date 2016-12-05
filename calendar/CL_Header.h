@@ -15,6 +15,7 @@
 #import "UIColor+Instance.h"
 #import "UITableView+adapter.h"
 #import "FQApplication.h"
+#import "CLProgressHUD.h"
 
 
 #endif /* CL_Header_h */

@@ -7,6 +7,7 @@
 //
 
 #import "CLSplashController.h"
+#import "CLHomeController.h"
 
 @interface CLSplashController ()<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>{
     UICollectionView * _collectionView;
@@ -21,6 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     currentPage = 0;
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
     [self configCollection];
     [self configPageControl];
@@ -43,6 +45,7 @@
     _collectionView.dataSource = self;
     _collectionView.pagingEnabled = YES;
     _collectionView.showsHorizontalScrollIndicator = NO;
+    
     
 }
 
@@ -72,7 +75,7 @@
 -(void)next{
     ++currentPage;
     if (currentPage == 3) {
-        [self.navigationController popViewControllerAnimated:YES];return;
+        [self.navigationController pushViewController:[CLHomeController instance] animated:YES];return;
     }
     NSIndexPath *path = [NSIndexPath indexPathForItem:currentPage inSection:0];
     [_collectionView scrollToItemAtIndexPath:path atScrollPosition:UICollectionViewScrollPositionNone animated:YES];
@@ -90,6 +93,9 @@
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     currentPage = (scrollView.contentOffset.x + SCREEN_WIDTH/2.0)/SCREEN_WIDTH;
     _pageControl.currentPage = currentPage;
+}
+-(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
+    return UIEdgeInsetsMake(0, 0, 0, 0);
 }
 
 

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CLLoginController.h"
+#import "CLHomeController.h"
 
 @interface AppDelegate (){
     CLLoginController *_login;
@@ -22,7 +23,7 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = UIWhiteColor;
     _login = [CLLoginController instance];
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:_login];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[CLHomeController instance]];
     nav.navigationBarHidden = YES;
     [self.window setRootViewController:nav];
     [self.window makeKeyAndVisible];

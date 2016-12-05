@@ -9,7 +9,7 @@
 #import "CLLoginController.h"
 #import "CLLoginView.h"
 #import "CLLoginView1.h"
-#import "CLProgressHUD.h"
+
 #import "CLRegisterController.h"
 #import "NSString+PDRegex.h"
 #import "CLSplashController.h"
